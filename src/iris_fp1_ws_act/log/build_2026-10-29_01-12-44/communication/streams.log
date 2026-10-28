@@ -1,0 +1,45 @@
+[0.065s] Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/communication -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication
+[0.285s] -- The C compiler identification is GNU 13.3.0
+[0.513s] -- The CXX compiler identification is GNU 13.3.0
+[0.579s] -- Detecting C compiler ABI info
+[0.911s] -- Detecting C compiler ABI info - done
+[0.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.954s] -- Detecting C compile features
+[0.956s] -- Detecting C compile features - done
+[0.988s] -- Detecting CXX compiler ABI info
+[1.396s] -- Detecting CXX compiler ABI info - done
+[1.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.453s] -- Detecting CXX compile features
+[1.453s] -- Detecting CXX compile features - done
+[1.465s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.068s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.531s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.689s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.747s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.249s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.257s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.574s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.658s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.131s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.207s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.662s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.663s] -- Configured cppcheck include dirs: 
+[4.663s] -- Configured cppcheck exclude dirs and/or files: 
+[4.665s] -- Added test 'lint_cmake' to check CMake code style
+[4.668s] -- Added test 'uncrustify' to check C / C++ code style
+[4.669s] -- Configured uncrustify additional arguments: 
+[4.671s] -- Added test 'xmllint' to check XML markup files
+[4.676s] -- Configuring done (4.6s)
+[4.726s] -- Generating done (0.0s)
+[4.747s] -- Build files have been written to: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication
+[4.788s] Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/communication -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication
+[4.792s] Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication -- -j12 -l12
+[4.994s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp-sender.cpp.o[0m
+[4.994s] [ 50%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp-receiver.cpp.o[0m
+[18.784s] [ 75%] [32m[1mLinking CXX executable udp_sender[0m
+[19.347s] [ 75%] Built target udp_sender
+[24.494s] [100%] [32m[1mLinking CXX executable udp_receiver[0m
+[25.205s] [100%] Built target udp_receiver

@@ -1,0 +1,20 @@
+[0.081s] Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master -- -j12 -l12
+[0.215s] Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master -- -j12 -l12
+[0.256s] Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master
+[0.292s] -- Install configuration: ""
+[0.293s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[0.293s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[0.294s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/ament_prefix_path.sh
+[0.294s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/ament_prefix_path.dsv
+[0.294s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/path.sh
+[0.295s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/path.dsv
+[0.296s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.bash
+[0.298s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.sh
+[0.301s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.zsh
+[0.307s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.dsv
+[0.308s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.dsv
+[0.310s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/packages/master
+[0.311s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/cmake/masterConfig.cmake
+[0.312s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/cmake/masterConfig-version.cmake
+[0.313s] -- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.xml
+[0.313s] Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master

@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/putri/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12
+[0.295s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[37.669s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[40.060s] [100%] Built target vision_node
+[40.103s] Invoked command in '/home/putri/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12
+[40.137s] Invoking command in '/home/putri/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/build/vision
+[40.161s] -- Install configuration: ""
+[40.161s] -- Installing: /home/putri/iris_fp1_ws/install/vision/lib/vision/vision_node
+[40.174s] -- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/install/vision/lib/vision/vision_node" to ""
+[40.175s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[40.175s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[40.176s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[40.177s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[40.178s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/environment/path.sh
+[40.179s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/environment/path.dsv
+[40.179s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/local_setup.bash
+[40.179s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/local_setup.sh
+[40.180s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/local_setup.zsh
+[40.180s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/local_setup.dsv
+[40.180s] -- Installing: /home/putri/iris_fp1_ws/install/vision/share/vision/package.dsv
+[40.181s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision
+[40.181s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake
+[40.186s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[40.187s] -- Up-to-date: /home/putri/iris_fp1_ws/install/vision/share/vision/package.xml
+[40.188s] Invoked command in '/home/putri/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/build/vision

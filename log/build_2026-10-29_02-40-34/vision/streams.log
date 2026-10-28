@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/putri/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[11.424s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[11.424s]    48 |     int bev_width_ = [01;31m[Kframe[m[K.cols;
+[11.424s]       |                      [01;31m[K^~~~~[m[K
+[11.458s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:49:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[11.458s]    49 |     int bev_height_ = [01;31m[Kframe[m[K.rows;
+[11.459s]       |                       [01;31m[K^~~~~[m[K
+[11.532s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:[m[K In member function ‘[01m[Kvoid VisionNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.533s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:74:32:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+[11.534s]    74 |                 cv::Point2f(0, [01;31m[K0f[m[K),
+[11.534s]       |                                [01;31m[K^~[m[K
+[11.535s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:79:13:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>, cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), 0.0f), cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1)), cv::Point_<float>(0.0f, (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1))}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<cv::Point_<float> >[m[K’
+[11.535s]    79 |             [01;31m[K}[m[K;
+[11.535s]       |             [01;31m[K^[m[K
+[11.535s]       |             [01;31m[K|[m[K
+[11.536s]       |             [01;31m[K<brace-enclosed initializer list>[m[K
+[11.542s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:85:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcvColor[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvtColor[m[K’?
+[11.542s]    85 |             cv::[01;31m[KcvColor[m[K(bev , bev_hsv , cv::COLOR_BGR2HSV);
+[11.543s]       |                 [01;31m[K^~~~~~~[m[K
+[11.543s]       |                 [32m[KcvtColor[m[K
+[21.690s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+[21.692s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+[21.693s] gmake: *** [Makefile:146: all] Error 2
+[21.701s] Invoked command in '/home/putri/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12

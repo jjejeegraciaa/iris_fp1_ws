@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000267] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000290] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000306] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000320] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000333] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000350] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000363] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000377] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000390] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000403] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000415] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000427] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000438] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000450] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000461] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000478] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000491] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000584] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.000597] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.000609] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.000621] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.000634] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.000646] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.000658] (-) JobUnselected: {'identifier': 'communication'}
+[0.000669] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000682] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000696] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.000708] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.000722] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.000735] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.000748] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.000759] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.000771] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.000784] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.000796] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.000813] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.000825] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.000838] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.000850] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.000862] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.000874] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.000886] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.000897] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.000909] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.000921] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.000934] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.000946] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.000958] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.000970] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.000982] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.000995] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001007] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001020] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001033] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001045] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001058] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001072] (-) JobUnselected: {'identifier': 'master'}
+[0.001084] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001096] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001109] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001121] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001134] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.002231] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.002305] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.002320] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.002333] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.002345] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.002358] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.002371] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.002388] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.002409] (vision) JobStarted: {'identifier': 'vision'}
+[0.019352] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.022114] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.022231] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/putri/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/putri/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2820', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/2787,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/2787', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3d284d4d_9e14_4d6d_bc6b_9c44d6489135', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.315', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099483] (-) TimerEvent: {}
+[0.186142] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o\x1b[0m\n'}
+[0.199671] (-) TimerEvent: {}
+[0.300448] (-) TimerEvent: {}
+[0.401003] (-) TimerEvent: {}
+[0.501428] (-) TimerEvent: {}
+[0.602064] (-) TimerEvent: {}
+[0.702580] (-) TimerEvent: {}
+[0.803086] (-) TimerEvent: {}
+[0.903533] (-) TimerEvent: {}
+[1.004090] (-) TimerEvent: {}
+[1.104532] (-) TimerEvent: {}
+[1.204973] (-) TimerEvent: {}
+[1.305567] (-) TimerEvent: {}
+[1.406119] (-) TimerEvent: {}
+[1.506685] (-) TimerEvent: {}
+[1.607391] (-) TimerEvent: {}
+[1.707884] (-) TimerEvent: {}
+[1.808436] (-) TimerEvent: {}
+[1.908845] (-) TimerEvent: {}
+[2.009392] (-) TimerEvent: {}
+[2.109925] (-) TimerEvent: {}
+[2.210367] (-) TimerEvent: {}
+[2.310767] (-) TimerEvent: {}
+[2.411267] (-) TimerEvent: {}
+[2.511706] (-) TimerEvent: {}
+[2.612188] (-) TimerEvent: {}
+[2.712621] (-) TimerEvent: {}
+[2.813096] (-) TimerEvent: {}
+[2.913493] (-) TimerEvent: {}
+[3.013916] (-) TimerEvent: {}
+[3.114400] (-) TimerEvent: {}
+[3.214808] (-) TimerEvent: {}
+[3.315312] (-) TimerEvent: {}
+[3.415771] (-) TimerEvent: {}
+[3.516238] (-) TimerEvent: {}
+[3.616672] (-) TimerEvent: {}
+[3.717228] (-) TimerEvent: {}
+[3.817756] (-) TimerEvent: {}
+[3.918296] (-) TimerEvent: {}
+[4.018843] (-) TimerEvent: {}
+[4.029441] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VisionNode::\x1b[01;32m\x1b[KimageCallback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.030070] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.030319] (vision) StderrLine: {'line': b'   98 |             std:\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<std::vector<cvPoint>> contours;\n'}
+[4.030524] (vision) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.030693] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.030865] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:66\x1b[m\x1b[K,\n'}
+[4.031039] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19\x1b[m\x1b[K,\n'}
+[4.031349] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175\x1b[m\x1b[K,\n'}
+[4.031765] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:1\x1b[m\x1b[K:\n'}
+[4.031959] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:428:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.032306] (vision) StderrLine: {'line': b'  428 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
+[4.032712] (vision) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.032991] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/vector:86:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.033199] (vision) StderrLine: {'line': b'   86 |       using \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;\n'}
+[4.033444] (vision) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.033660] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype/value mismatch at argument 1 in template parameter list for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> class std::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.033897] (vision) StderrLine: {'line': b'   98 |             std:vector<std::vector<\x1b[01;31m\x1b[KcvPoint\x1b[m\x1b[K>> contours;\n'}
+[4.034113] (vision) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.034330] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  expected a type, got \xe2\x80\x98\x1b[01m\x1b[KcvPoint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.034548] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[4.034791] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.035032] (vision) StderrLine: {'line': b'  103 |             for (size_t i = 0 ; \x1b[32m\x1b[Ki\x1b[m\x1b[K \x1b[01;31m\x1b[K<\x1b[m\x1b[K \x1b[34m\x1b[Kcontours.size()\x1b[m\x1b[K ; i++){\n'}
+[4.035237] (vision) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.035443] (vision) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K|\x1b[m\x1b[K                \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[4.035636] (vision) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K|\x1b[m\x1b[K                \x1b[34m\x1b[Kcv::Size {aka cv::Size_<int>}\x1b[m\x1b[K\n'}
+[4.035831] (vision) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.036017] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3773\x1b[m\x1b[K,\n'}
+[4.036197] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[4.036401] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[4.036597] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/cv_bridge/cv_bridge/cv_bridge.hpp:43\x1b[m\x1b[K,\n'}
+[4.036773] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:3\x1b[m\x1b[K:\n'}
+[4.036958] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2404:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const MatConstIterator&, const MatConstIterator&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.037139] (vision) StderrLine: {'line': b' 2404 | bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const MatConstIterator& a, const MatConstIterator& b)\n'}
+[4.037325] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.037498] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2404:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::MatConstIterator&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.037699] (vision) StderrLine: {'line': b' 2404 | bool operator < (const MatConstIterator& a, \x1b[01;36m\x1b[Kconst MatConstIterator& b\x1b[m\x1b[K)\n'}
+[4.037872] (vision) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.038043] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3665:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int m, int n> cv::MatExpr cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const Mat&, const Matx<_Tp, m, n>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.038232] (vision) StderrLine: {'line': b' 3665 | MatExpr \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const Mat& a, const Matx<_Tp, m, n>& b) { return a < Mat(b); }\n'}
+[4.038415] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.038600] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3665:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.038782] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Matx<_Tp, m, n>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.038967] (vision) StderrLine: {'line': b'  103 |             for (size_t i = 0 ; i < contours.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K ; i++){\n'}
+[4.039157] (vision) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.039371] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3667:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int m, int n> cv::MatExpr cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const Matx<_Tp, m, n>&, const Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.039580] (vision) StderrLine: {'line': b' 3667 | MatExpr \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const Matx<_Tp, m, n>& a, const Mat& b) { return Mat(a) < b; }\n'}
+[4.039776] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.039977] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3667:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.040172] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Matx<_Tp, m, n>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.040674] (vision) StderrLine: {'line': b'  103 |             for (size_t i = 0 ; i < contours.size(\x1b[01;36m\x1b[K)\x1b[m\x1b[K ; i++){\n'}
+[4.040821] (vision) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.040915] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3661:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::MatExpr cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const Mat&, const Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.041009] (vision) StderrLine: {'line': b' 3661 | CV_EXPORTS MatExpr \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const Mat& a, const Mat& b);\n'}
+[4.041092] (vision) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.041174] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3661:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.041277] (vision) StderrLine: {'line': b' 3661 | CV_EXPORTS MatExpr operator < (\x1b[01;36m\x1b[Kconst Mat& a\x1b[m\x1b[K, const Mat& b);\n'}
+[4.041358] (vision) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.041440] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3662:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::MatExpr cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const Mat&, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.041522] (vision) StderrLine: {'line': b' 3662 | CV_EXPORTS MatExpr \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const Mat& a, double s);\n'}
+[4.041603] (vision) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.041682] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3662:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.041783] (vision) StderrLine: {'line': b' 3662 | CV_EXPORTS MatExpr operator < (\x1b[01;36m\x1b[Kconst Mat& a\x1b[m\x1b[K, double s);\n'}
+[4.041863] (vision) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.041946] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3663:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::MatExpr cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(double, const Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.042031] (vision) StderrLine: {'line': b' 3663 | CV_EXPORTS MatExpr \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (double s, const Mat& a);\n'}
+[4.042124] (vision) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.042214] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:3663:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.042305] (vision) StderrLine: {'line': b' 3663 | CV_EXPORTS MatExpr operator < (double s, \x1b[01;36m\x1b[Kconst Mat& a\x1b[m\x1b[K);\n'}
+[4.042394] (vision) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.042476] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:59\x1b[m\x1b[K:\n'}
+[4.042560] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/persistence.hpp:1341:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool cv::\x1b[01;32m\x1b[Koperator<\x1b[m\x1b[K(const FileNodeIterator&, const FileNodeIterator&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.042639] (vision) StderrLine: {'line': b' 1341 | bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K < (const FileNodeIterator& it1, const FileNodeIterator& it2)\n'}
+[4.042716] (vision) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.042795] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/persistence.hpp:1341:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::FileNodeIterator&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.042877] (vision) StderrLine: {'line': b' 1341 | bool operator < (\x1b[01;36m\x1b[Kconst FileNodeIterator& it1\x1b[m\x1b[K, const FileNodeIterator& it2)\n'}
+[4.042955] (vision) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.047835] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:104:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcountours\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcontours\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.048390] (vision) StderrLine: {'line': b'  104 |                 if (cv::contourArea(\x1b[01;31m\x1b[Kcountours\x1b[m\x1b[K[i]) > 1000) {\n'}
+[4.048610] (vision) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.048812] (vision) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kcontours\x1b[m\x1b[K\n'}
+[4.049012] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:105:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.049233] (vision) StderrLine: {'line': b'  105 |                    cv::Rect boundingBox = cv::boundingRect(contours\x1b[01;31m\x1b[K[\x1b[m\x1b[Ki])\n'}
+[4.049440] (vision) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.049637] (vision) StderrLine: {'line': b'\n'}
+[4.049826] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:105:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KboundingBox\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.050043] (vision) StderrLine: {'line': b'  105 |                     cv::Rect \x1b[01;35m\x1b[KboundingBox\x1b[m\x1b[K = cv::boundingRect(contours[i])\n'}
+[4.050447] (vision) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.050786] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.051019] (vision) StderrLine: {'line': b'   98 |             \x1b[01;35m\x1b[Kstd\x1b[m\x1b[K:vector<std::vector<cvPoint>> contours;\n'}
+[4.051230] (vision) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.119107] (-) TimerEvent: {}
+[4.219724] (-) TimerEvent: {}
+[4.320295] (-) TimerEvent: {}
+[4.420841] (-) TimerEvent: {}
+[4.521395] (-) TimerEvent: {}
+[4.621950] (-) TimerEvent: {}
+[4.722658] (-) TimerEvent: {}
+[4.823149] (-) TimerEvent: {}
+[4.923647] (-) TimerEvent: {}
+[5.024135] (-) TimerEvent: {}
+[5.124632] (-) TimerEvent: {}
+[5.225106] (-) TimerEvent: {}
+[5.325582] (-) TimerEvent: {}
+[5.426065] (-) TimerEvent: {}
+[5.526548] (-) TimerEvent: {}
+[5.627013] (-) TimerEvent: {}
+[5.727393] (-) TimerEvent: {}
+[5.827836] (-) TimerEvent: {}
+[5.928326] (-) TimerEvent: {}
+[6.028688] (-) TimerEvent: {}
+[6.129171] (-) TimerEvent: {}
+[6.229583] (-) TimerEvent: {}
+[6.329989] (-) TimerEvent: {}
+[6.430431] (-) TimerEvent: {}
+[6.530872] (-) TimerEvent: {}
+[6.631303] (-) TimerEvent: {}
+[6.731720] (-) TimerEvent: {}
+[6.832155] (-) TimerEvent: {}
+[6.932592] (-) TimerEvent: {}
+[7.033002] (-) TimerEvent: {}
+[7.133666] (-) TimerEvent: {}
+[7.234188] (-) TimerEvent: {}
+[7.334797] (-) TimerEvent: {}
+[7.353386] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1\n'}
+[7.353984] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2\n'}
+[7.354224] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.357630] (vision) CommandEnded: {'returncode': 2}
+[7.378992] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[7.390036] (-) EventReactorShutdown: {}

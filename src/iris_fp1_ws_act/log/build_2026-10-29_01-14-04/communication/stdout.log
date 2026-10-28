@@ -1,0 +1,22 @@
+[100%] Built target udp_receiver
+[100%] Built target udp_sender
+-- Install configuration: ""
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_receiver
+-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_receiver" to ""
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_sender
+-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_sender" to ""
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/ament_prefix_path.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/ament_prefix_path.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/path.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/path.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.bash
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.zsh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/packages/communication
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/cmake/communicationConfig.cmake
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/cmake/communicationConfig-version.cmake
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.xml

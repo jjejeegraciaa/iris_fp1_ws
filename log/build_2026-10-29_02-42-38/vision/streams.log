@@ -1,0 +1,12 @@
+[0.027s] Invoking command in '/home/putri/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12
+[0.233s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[10.949s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[10.950s]    48 |     int bev_width_ = [01;31m[Kframe[m[K.cols;
+[10.950s]       |                      [01;31m[K^~~~~[m[K
+[10.979s] [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:49:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[10.981s]    49 |     int bev_height_ = [01;31m[Kframe[m[K.rows;
+[10.982s]       |                       [01;31m[K^~~~~[m[K
+[21.025s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+[21.026s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+[21.026s] gmake: *** [Makefile:146: all] Error 2
+[21.035s] Invoked command in '/home/putri/iris_fp1_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/build/vision -- -j12 -l12

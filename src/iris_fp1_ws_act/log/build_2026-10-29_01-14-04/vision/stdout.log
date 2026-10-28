@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vision_node[0m
+[100%] Built target vision_node
+-- Install configuration: ""
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/vision/vision_node
+-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/vision/vision_node" to ""
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/ament_prefix_path.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/ament_prefix_path.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/path.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/path.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.bash
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.sh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.zsh
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.dsv
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/packages/vision
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/cmake/visionConfig.cmake
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/cmake/visionConfig-version.cmake
+-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.xml

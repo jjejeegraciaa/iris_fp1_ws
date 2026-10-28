@@ -1,0 +1,39 @@
+[0.178s] Invoking command in '/home/putri/iris_fp1_ws/build/dbw_mkz_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/install/dbw_mkz_msgs
+[0.375s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.375s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.376s]   CMake.
+[0.376s] 
+[0.379s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.382s]   CMake that the project does not need compatibility with older versions.
+[0.384s] 
+[0.384s] [0m
+[0.646s] -- The C compiler identification is GNU 13.3.0
+[1.024s] -- The CXX compiler identification is GNU 13.3.0
+[1.125s] -- Detecting C compiler ABI info
+[1.693s] -- Detecting C compiler ABI info - done
+[1.835s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.840s] -- Detecting C compile features
+[1.843s] -- Detecting C compile features - done
+[1.937s] -- Detecting CXX compiler ABI info
+[2.707s] -- Detecting CXX compiler ABI info - done
+[2.983s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.983s] -- Detecting CXX compile features
+[2.987s] -- Detecting CXX compile features - done
+[2.991s] -- Configuring incomplete, errors occurred!
+[2.992s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.992s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.993s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.993s]   CMake did not find one.
+[2.994s] 
+[2.994s]   Could not find a package configuration file provided by "catkin" with any
+[2.995s]   of the following names:
+[2.996s] 
+[2.996s]     catkinConfig.cmake
+[2.997s]     catkin-config.cmake
+[2.997s] 
+[2.998s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.998s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.998s]   provides a separate development package or SDK, be sure it has been
+[3.000s]   installed.
+[3.002s] 
+[3.002s] [0m

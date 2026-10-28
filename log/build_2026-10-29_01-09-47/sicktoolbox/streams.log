@@ -1,0 +1,32 @@
+[0.171s] Invoking command in '/home/putri/iris_fp1_ws/build/sicktoolbox': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/install/sicktoolbox
+[0.556s] -- The C compiler identification is GNU 13.3.0
+[0.808s] -- The CXX compiler identification is GNU 13.3.0
+[0.894s] -- Detecting C compiler ABI info
+[1.582s] -- Detecting C compiler ABI info - done
+[1.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.664s] -- Detecting C compile features
+[1.669s] -- Detecting C compile features - done
+[1.747s] -- Detecting CXX compiler ABI info
+[2.412s] -- Detecting CXX compiler ABI info - done
+[2.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.513s] -- Detecting CXX compile features
+[2.514s] -- Detecting CXX compile features - done
+[2.575s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[2.587s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.600s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.603s]   CMake did not find one.
+[2.603s] 
+[2.609s]   Could not find a package configuration file provided by "catkin" with any
+[2.615s]   of the following names:
+[2.619s] 
+[2.619s]     catkinConfig.cmake
+[2.620s]     catkin-config.cmake
+[2.623s] 
+[2.625s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.626s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.627s]   provides a separate development package or SDK, be sure it has been
+[2.629s]   installed.
+[2.629s] 
+[2.630s] [0m
+[2.631s] -- Configuring incomplete, errors occurred!
+[2.646s] Invoked command in '/home/putri/iris_fp1_ws/build/sicktoolbox' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/install/sicktoolbox

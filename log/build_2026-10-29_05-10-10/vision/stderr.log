@@ -1,0 +1,93 @@
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:[m[K In member function ‘[01m[Kvoid VisionNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+   98 |             std:[01;31m[Kvector[m[K<std::vector<cvPoint>> contours;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+                 from [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:428:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+  428 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/vector:86:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::vector[m[K’
+   86 |       using [01;36m[Kvector[m[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+      |             [01;36m[K^~~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<class _Tp, class _Alloc> class std::vector[m[K’
+   98 |             std:vector<std::vector<[01;31m[KcvPoint[m[K>> contours;
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:[m[K [01;36m[Knote: [m[K  expected a type, got ‘[01m[KcvPoint[m[K’
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<[m[K’ (operand types are ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kcv::Size[m[K’ {aka ‘[01m[Kcv::Size_<int>[m[K’})
+  103 |             for (size_t i = 0 ; [32m[Ki[m[K [01;31m[K<[m[K [34m[Kcontours.size()[m[K ; i++){
+      |                                 [32m[K~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[K|[m[K                [34m[K|[m[K
+      |                                 [32m[K|[m[K                [34m[Kcv::Size {aka cv::Size_<int>}[m[K
+      |                                 [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3773[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/jazzy/include/cv_bridge/cv_bridge/cv_bridge.hpp:43[m[K,
+                 from [01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2404:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool cv::[01;32m[Koperator<[m[K(const MatConstIterator&, const MatConstIterator&)[m[K’
+ 2404 | bool [01;36m[Koperator[m[K < (const MatConstIterator& a, const MatConstIterator& b)
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2404:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kcv::Size[m[K’ {aka ‘[01m[Kcv::Size_<int>[m[K’} to ‘[01m[Kconst cv::MatConstIterator&[m[K’
+ 2404 | bool operator < (const MatConstIterator& a, [01;36m[Kconst MatConstIterator& b[m[K)
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3665:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int m, int n> cv::MatExpr cv::[01;32m[Koperator<[m[K(const Mat&, const Matx<_Tp, m, n>&)[m[K’
+ 3665 | MatExpr [01;36m[Koperator[m[K < (const Mat& a, const Matx<_Tp, m, n>& b) { return a < Mat(b); }
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3665:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Size[m[K’ {aka ‘[01m[Kcv::Size_<int>[m[K’} is not derived from ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’
+  103 |             for (size_t i = 0 ; i < contours.size([01;36m[K)[m[K ; i++){
+      |                                                   [01;36m[K^[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3667:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int m, int n> cv::MatExpr cv::[01;32m[Koperator<[m[K(const Matx<_Tp, m, n>&, const Mat&)[m[K’
+ 3667 | MatExpr [01;36m[Koperator[m[K < (const Matx<_Tp, m, n>& a, const Mat& b) { return Mat(a) < b; }
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3667:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:103:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+  103 |             for (size_t i = 0 ; i < contours.size([01;36m[K)[m[K ; i++){
+      |                                                   [01;36m[K^[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3661:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::MatExpr cv::[01;32m[Koperator<[m[K(const Mat&, const Mat&)[m[K’
+ 3661 | CV_EXPORTS MatExpr [01;36m[Koperator[m[K < (const Mat& a, const Mat& b);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3661:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst cv::Mat&[m[K’
+ 3661 | CV_EXPORTS MatExpr operator < ([01;36m[Kconst Mat& a[m[K, const Mat& b);
+      |                                [01;36m[K~~~~~~~~~~~^[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3662:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::MatExpr cv::[01;32m[Koperator<[m[K(const Mat&, double)[m[K’
+ 3662 | CV_EXPORTS MatExpr [01;36m[Koperator[m[K < (const Mat& a, double s);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3662:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst cv::Mat&[m[K’
+ 3662 | CV_EXPORTS MatExpr operator < ([01;36m[Kconst Mat& a[m[K, double s);
+      |                                [01;36m[K~~~~~~~~~~~^[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3663:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::MatExpr cv::[01;32m[Koperator<[m[K(double, const Mat&)[m[K’
+ 3663 | CV_EXPORTS MatExpr [01;36m[Koperator[m[K < (double s, const Mat& a);
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3663:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kcv::Size[m[K’ {aka ‘[01m[Kcv::Size_<int>[m[K’} to ‘[01m[Kconst cv::Mat&[m[K’
+ 3663 | CV_EXPORTS MatExpr operator < (double s, [01;36m[Kconst Mat& a[m[K);
+      |                                          [01;36m[K~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:59[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1341:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool cv::[01;32m[Koperator<[m[K(const FileNodeIterator&, const FileNodeIterator&)[m[K’
+ 1341 | bool [01;36m[Koperator[m[K < (const FileNodeIterator& it1, const FileNodeIterator& it2)
+      |      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1341:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst cv::FileNodeIterator&[m[K’
+ 1341 | bool operator < ([01;36m[Kconst FileNodeIterator& it1[m[K, const FileNodeIterator& it2)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:104:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcountours[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontours[m[K’?
+  104 |                 if (cv::contourArea([01;31m[Kcountours[m[K[i]) > 1000) {
+      |                                     [01;31m[K^~~~~~~~~[m[K
+      |                                     [32m[Kcontours[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:105:69:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  105 |                    cv::Rect boundingBox = cv::boundingRect(contours[01;31m[K[[m[Ki])
+      |                                                                    [01;31m[K^[m[K
+
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:105:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KboundingBox[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  105 |                     cv::Rect [01;35m[KboundingBox[m[K = cv::boundingRect(contours[i])
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:98:13:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kstd[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+   98 |             [01;35m[Kstd[m[K:vector<std::vector<cvPoint>> contours;
+      |             [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

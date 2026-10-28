@@ -1,0 +1,39 @@
+[0.225s] Invoking command in '/home/putri/iris_fp1_ws/build/catvehicle_gps_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gps_action -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/install/catvehicle_gps_action
+[2.880s] -- The C compiler identification is GNU 13.3.0
+[2.880s] -- The CXX compiler identification is GNU 13.3.0
+[2.881s] -- Detecting C compiler ABI info
+[2.881s] -- Detecting C compiler ABI info - done
+[2.882s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.882s] -- Detecting C compile features
+[2.882s] -- Detecting C compile features - done
+[2.883s] -- Detecting CXX compiler ABI info
+[2.883s] -- Detecting CXX compiler ABI info - done
+[2.892s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[2.892s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.893s]   CMake.
+[2.893s] 
+[2.893s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.893s]   CMake that the project does not need compatibility with older versions.
+[2.894s] 
+[2.894s] [0m
+[2.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.938s] -- Detecting CXX compile features
+[2.938s] -- Detecting CXX compile features - done
+[2.940s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[2.940s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.941s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.941s]   CMake did not find one.
+[2.941s] 
+[2.942s]   Could not find a package configuration file provided by "catkin" with any
+[2.942s]   of the following names:
+[2.942s] 
+[2.942s]     catkinConfig.cmake
+[2.943s]     catkin-config.cmake
+[2.943s] 
+[2.943s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.944s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.944s]   provides a separate development package or SDK, be sure it has been
+[2.944s]   installed.
+[2.944s] 
+[2.945s] [0m
+[2.945s] -- Configuring incomplete, errors occurred!

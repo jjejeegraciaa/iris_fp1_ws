@@ -1,0 +1,14 @@
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:[m[K In constructor ‘[01m[KVisionNode::[01;32m[KVisionNode[m[K()[m[K’:
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:15:1:[m[K [01;31m[Kerror: [m[K‘[01m[KteTrackbar[m[K’ was not declared in this scope
+   15 | [01;31m[KteTrackbar[m[K("Smin", "Control", &s_min_, 255);
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:16:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ks_ma[m[K’ was not declared in this scope; did you mean ‘[01m[Ks_max_[m[K’?
+   16 |         createTrackbar("Smax", "Control", &[01;31m[Ks_ma[m[K        createTrackbar("Hmax", "Control", &h_max_, 179);
+      |                                            [01;31m[K^~~~[m[K
+      |                                            [32m[Ks_max_[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreax_[m[K’ was not declared in this scope
+   18 |         [01;31m[Kcreax_[m[K, 255);
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

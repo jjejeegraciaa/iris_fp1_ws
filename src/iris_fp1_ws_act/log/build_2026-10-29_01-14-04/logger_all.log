@@ -1,0 +1,266 @@
+[0.476s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.476s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7873755987d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7873756b9130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7873756b9130>>, mixin_verb=('build',))
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.644s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/communication' with type 'ros.ament_cmake' and name 'communication'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/master) by extension 'ros'
+[0.783s] DEBUG:colcon.colcon_core.package_identification:Package 'src/master' with type 'ros.ament_cmake' and name 'master'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision' with type 'ros.ament_cmake' and name 'vision'
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.877s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.066s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_args' from command line to 'None'
+[1.066s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target' from command line to 'None'
+[1.066s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.066s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_cache' from command line to 'False'
+[1.066s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_first' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_force_configure' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'ament_cmake_args' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_cmake_args' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.067s] DEBUG:colcon.colcon_core.verb:Building package 'communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication', 'merge_install': False, 'path': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/communication', 'symlink_install': False, 'test_result_base': None}
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_target' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_clean_cache' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_clean_first' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'cmake_force_configure' from command line to 'False'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'ament_cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'catkin_cmake_args' from command line to 'None'
+[1.069s] Level 5:colcon.colcon_core.verb:set package 'master' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.069s] DEBUG:colcon.colcon_core.verb:Building package 'master' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master', 'merge_install': False, 'path': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/master', 'symlink_install': False, 'test_result_base': None}
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_cache' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_first' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_force_configure' from command line to 'False'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'ament_cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_cmake_args' from command line to 'None'
+[1.071s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.071s] DEBUG:colcon.colcon_core.verb:Building package 'vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision', 'merge_install': False, 'path': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision', 'symlink_install': False, 'test_result_base': None}
+[1.072s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.081s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/communication' with build type 'ament_cmake'
+[1.082s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/communication'
+[1.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/master' with build type 'ament_cmake'
+[1.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/master'
+[1.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.118s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision' with build type 'ament_cmake'
+[1.119s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision'
+[1.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication -- -j12 -l12
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master -- -j12 -l12
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision -- -j12 -l12
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master -- -j12 -l12
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master
+[1.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(master)
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master' for CMake module files
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master' for CMake config files
+[1.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('master', 'cmake_prefix_path')
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/bin'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/lib/pkgconfig/master.pc'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/lib/python3.12/site-packages'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/bin'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.zsh'
+[1.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/colcon-core/packages/master)
+[1.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(master)
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master' for CMake module files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master' for CMake config files
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('master', 'cmake_prefix_path')
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/hook/cmake_prefix_path.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/lib/pkgconfig/master.pc'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/lib/python3.12/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/bin'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.sh'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.bash'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.zsh'
+[1.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/colcon-core/packages/master)
+[1.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication -- -j12 -l12
+[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication
+[1.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication)
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication' for CMake module files
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication' for CMake config files
+[1.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'cmake_prefix_path')
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.ps1'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.sh'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/bin'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/pkgconfig/communication.pc'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/python3.12/site-packages'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.bash'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.zsh'
+[1.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/colcon-core/packages/communication)
+[1.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication)
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication' for CMake module files
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication' for CMake config files
+[1.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'cmake_prefix_path')
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/hook/cmake_prefix_path.sh'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/bin'
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/pkgconfig/communication.pc'
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/python3.12/site-packages'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/bin'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.dsv'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.sh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.bash'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.zsh'
+[1.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/colcon-core/packages/communication)
+[47.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision -- -j12 -l12
+[47.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision
+[47.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[47.762s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision' for CMake module files
+[47.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision
+[47.766s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision' for CMake config files
+[47.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'cmake_prefix_path')
+[47.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.ps1'
+[47.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.dsv'
+[47.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.sh'
+[47.776s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib'
+[47.777s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/bin'
+[47.778s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/pkgconfig/vision.pc'
+[47.779s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/python3.12/site-packages'
+[47.780s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/bin'
+[47.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.ps1'
+[47.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.dsv'
+[47.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.sh'
+[47.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.bash'
+[47.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.zsh'
+[47.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/colcon-core/packages/vision)
+[47.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[47.793s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision' for CMake module files
+[47.795s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision' for CMake config files
+[47.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'cmake_prefix_path')
+[47.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.ps1'
+[47.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.dsv'
+[47.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/hook/cmake_prefix_path.sh'
+[47.803s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib'
+[47.803s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/bin'
+[47.804s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/pkgconfig/vision.pc'
+[47.804s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/python3.12/site-packages'
+[47.806s] Level 1:colcon.colcon_core.environment:checking '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/bin'
+[47.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.ps1'
+[47.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.dsv'
+[47.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.sh'
+[47.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.bash'
+[47.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.zsh'
+[47.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/colcon-core/packages/vision)
+[47.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.819s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.820s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.845s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.909s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/local_setup.ps1'
+[47.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/_local_setup_util_ps1.py'
+[47.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/setup.ps1'
+[47.923s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/local_setup.sh'
+[47.926s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/_local_setup_util_sh.py'
+[47.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/setup.sh'
+[47.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/local_setup.bash'
+[47.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/setup.bash'
+[47.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/local_setup.zsh'
+[47.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/setup.zsh'

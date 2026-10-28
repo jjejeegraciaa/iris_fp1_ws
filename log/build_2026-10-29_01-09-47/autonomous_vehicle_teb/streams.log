@@ -1,0 +1,39 @@
+[0.183s] Invoking command in '/home/putri/iris_fp1_ws/build/autonomous_vehicle_teb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/putri/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/autonomous_vehicle_teb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/putri/iris_fp1_ws/install/autonomous_vehicle_teb
+[2.583s] -- The C compiler identification is GNU 13.3.0
+[2.584s] -- The CXX compiler identification is GNU 13.3.0
+[2.586s] -- Detecting C compiler ABI info
+[2.586s] -- Detecting C compiler ABI info - done
+[2.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.588s] -- Detecting C compile features
+[2.589s] -- Detecting C compile features - done
+[2.590s] -- Detecting CXX compiler ABI info
+[2.590s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[2.591s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.591s]   CMake.
+[2.592s] 
+[2.593s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.594s]   CMake that the project does not need compatibility with older versions.
+[2.594s] 
+[2.595s] [0m
+[2.977s] -- Detecting CXX compiler ABI info - done
+[2.983s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.984s] -- Detecting CXX compile features
+[2.985s] -- Detecting CXX compile features - done
+[3.002s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[3.003s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.003s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.003s]   CMake did not find one.
+[3.004s] 
+[3.004s]   Could not find a package configuration file provided by "catkin" with any
+[3.004s]   of the following names:
+[3.005s] 
+[3.005s]     catkinConfig.cmake
+[3.005s]     catkin-config.cmake
+[3.006s] 
+[3.006s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.006s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.007s]   provides a separate development package or SDK, be sure it has been
+[3.007s]   installed.
+[3.007s] 
+[3.007s] [0m
+[3.008s] -- Configuring incomplete, errors occurred!

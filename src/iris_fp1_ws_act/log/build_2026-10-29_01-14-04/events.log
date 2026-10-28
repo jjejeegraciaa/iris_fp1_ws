@@ -1,0 +1,553 @@
+[0.000000] (-) TimerEvent: {}
+[0.003610] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.004731] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.005136] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.005611] (communication) JobStarted: {'identifier': 'communication'}
+[0.026497] (master) JobStarted: {'identifier': 'master'}
+[0.040605] (vision) JobStarted: {'identifier': 'vision'}
+[0.063897] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.070041] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[0.070408] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', '--', '-j12', '-l12'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.083013] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.086522] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.088771] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', '--', '-j12', '-l12'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.108762] (-) TimerEvent: {}
+[0.112790] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.116470] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.117634] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.209030] (-) TimerEvent: {}
+[0.241910] (master) CommandEnded: {'returncode': 0}
+[0.244200] (master) JobProgress: {'identifier': 'master', 'progress': 'install'}
+[0.281945] (master) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.308398] (communication) StdoutLine: {'line': b'[100%] Built target udp_receiver\n'}
+[0.310860] (-) TimerEvent: {}
+[0.311477] (communication) StdoutLine: {'line': b'[100%] Built target udp_sender\n'}
+[0.312075] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o\x1b[0m\n'}
+[0.317978] (master) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.319637] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/package_run_dependencies/master\n'}
+[0.320073] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/parent_prefix_path/master\n'}
+[0.320751] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/ament_prefix_path.sh\n'}
+[0.321141] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/ament_prefix_path.dsv\n'}
+[0.321506] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/path.sh\n'}
+[0.321817] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/environment/path.dsv\n'}
+[0.322818] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.bash\n'}
+[0.323585] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.sh\n'}
+[0.326315] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.zsh\n'}
+[0.330616] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/local_setup.dsv\n'}
+[0.335002] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.dsv\n'}
+[0.335563] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/ament_index/resource_index/packages/master\n'}
+[0.337321] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/cmake/masterConfig.cmake\n'}
+[0.338295] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/cmake/masterConfig-version.cmake\n'}
+[0.339636] (master) StdoutLine: {'line': b'-- Up-to-date: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/master/share/master/package.xml\n'}
+[0.340383] (master) CommandEnded: {'returncode': 0}
+[0.409744] (master) JobEnded: {'identifier': 'master', 'rc': 0}
+[0.411458] (-) TimerEvent: {}
+[0.413901] (communication) CommandEnded: {'returncode': 0}
+[0.416703] (communication) JobProgress: {'identifier': 'communication', 'progress': 'install'}
+[0.418845] (communication) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.450085] (communication) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.451084] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_receiver\n'}
+[0.456142] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_receiver" to ""\n'}
+[0.456821] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_sender\n'}
+[0.458010] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/lib/communication/udp_sender" to ""\n'}
+[0.458883] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/package_run_dependencies/communication\n'}
+[0.459397] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/parent_prefix_path/communication\n'}
+[0.460474] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/ament_prefix_path.sh\n'}
+[0.461261] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/ament_prefix_path.dsv\n'}
+[0.461828] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/path.sh\n'}
+[0.462429] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/environment/path.dsv\n'}
+[0.463025] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.bash\n'}
+[0.464067] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.sh\n'}
+[0.464656] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.zsh\n'}
+[0.465324] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/local_setup.dsv\n'}
+[0.466171] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.dsv\n'}
+[0.466643] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/ament_index/resource_index/packages/communication\n'}
+[0.467023] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/cmake/communicationConfig.cmake\n'}
+[0.467239] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/cmake/communicationConfig-version.cmake\n'}
+[0.467466] (communication) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/communication/share/communication/package.xml\n'}
+[0.476302] (communication) CommandEnded: {'returncode': 0}
+[0.511983] (-) TimerEvent: {}
+[0.529061] (communication) JobEnded: {'identifier': 'communication', 'rc': 0}
+[0.612175] (-) TimerEvent: {}
+[0.713190] (-) TimerEvent: {}
+[0.813979] (-) TimerEvent: {}
+[0.914679] (-) TimerEvent: {}
+[1.015330] (-) TimerEvent: {}
+[1.116088] (-) TimerEvent: {}
+[1.216996] (-) TimerEvent: {}
+[1.318092] (-) TimerEvent: {}
+[1.419619] (-) TimerEvent: {}
+[1.520524] (-) TimerEvent: {}
+[1.621390] (-) TimerEvent: {}
+[1.722181] (-) TimerEvent: {}
+[1.822964] (-) TimerEvent: {}
+[1.924496] (-) TimerEvent: {}
+[2.025462] (-) TimerEvent: {}
+[2.126289] (-) TimerEvent: {}
+[2.227127] (-) TimerEvent: {}
+[2.329554] (-) TimerEvent: {}
+[2.433555] (-) TimerEvent: {}
+[2.534951] (-) TimerEvent: {}
+[2.641089] (-) TimerEvent: {}
+[2.742513] (-) TimerEvent: {}
+[2.843166] (-) TimerEvent: {}
+[2.943949] (-) TimerEvent: {}
+[3.045014] (-) TimerEvent: {}
+[3.146279] (-) TimerEvent: {}
+[3.247066] (-) TimerEvent: {}
+[3.347805] (-) TimerEvent: {}
+[3.448612] (-) TimerEvent: {}
+[3.549354] (-) TimerEvent: {}
+[3.650133] (-) TimerEvent: {}
+[3.750894] (-) TimerEvent: {}
+[3.851974] (-) TimerEvent: {}
+[3.952643] (-) TimerEvent: {}
+[4.053384] (-) TimerEvent: {}
+[4.154569] (-) TimerEvent: {}
+[4.255268] (-) TimerEvent: {}
+[4.356160] (-) TimerEvent: {}
+[4.457104] (-) TimerEvent: {}
+[4.558074] (-) TimerEvent: {}
+[4.659003] (-) TimerEvent: {}
+[4.759674] (-) TimerEvent: {}
+[4.860407] (-) TimerEvent: {}
+[4.961114] (-) TimerEvent: {}
+[5.061860] (-) TimerEvent: {}
+[5.162674] (-) TimerEvent: {}
+[5.264665] (-) TimerEvent: {}
+[5.365432] (-) TimerEvent: {}
+[5.466692] (-) TimerEvent: {}
+[5.567511] (-) TimerEvent: {}
+[5.669476] (-) TimerEvent: {}
+[5.771067] (-) TimerEvent: {}
+[5.871880] (-) TimerEvent: {}
+[5.972893] (-) TimerEvent: {}
+[6.073691] (-) TimerEvent: {}
+[6.174322] (-) TimerEvent: {}
+[6.275196] (-) TimerEvent: {}
+[6.376056] (-) TimerEvent: {}
+[6.476890] (-) TimerEvent: {}
+[6.577753] (-) TimerEvent: {}
+[6.678580] (-) TimerEvent: {}
+[6.779326] (-) TimerEvent: {}
+[6.880222] (-) TimerEvent: {}
+[6.981290] (-) TimerEvent: {}
+[7.082716] (-) TimerEvent: {}
+[7.184989] (-) TimerEvent: {}
+[7.286043] (-) TimerEvent: {}
+[7.386971] (-) TimerEvent: {}
+[7.487737] (-) TimerEvent: {}
+[7.589189] (-) TimerEvent: {}
+[7.690472] (-) TimerEvent: {}
+[7.791276] (-) TimerEvent: {}
+[7.892058] (-) TimerEvent: {}
+[7.992826] (-) TimerEvent: {}
+[8.094160] (-) TimerEvent: {}
+[8.195526] (-) TimerEvent: {}
+[8.296413] (-) TimerEvent: {}
+[8.397299] (-) TimerEvent: {}
+[8.498073] (-) TimerEvent: {}
+[8.599030] (-) TimerEvent: {}
+[8.699796] (-) TimerEvent: {}
+[8.802643] (-) TimerEvent: {}
+[8.904292] (-) TimerEvent: {}
+[9.006753] (-) TimerEvent: {}
+[9.108864] (-) TimerEvent: {}
+[9.209763] (-) TimerEvent: {}
+[9.312283] (-) TimerEvent: {}
+[9.413848] (-) TimerEvent: {}
+[9.514671] (-) TimerEvent: {}
+[9.615298] (-) TimerEvent: {}
+[9.716815] (-) TimerEvent: {}
+[9.817721] (-) TimerEvent: {}
+[9.918496] (-) TimerEvent: {}
+[10.019259] (-) TimerEvent: {}
+[10.120215] (-) TimerEvent: {}
+[10.221011] (-) TimerEvent: {}
+[10.321965] (-) TimerEvent: {}
+[10.422892] (-) TimerEvent: {}
+[10.524168] (-) TimerEvent: {}
+[10.625094] (-) TimerEvent: {}
+[10.725987] (-) TimerEvent: {}
+[10.826819] (-) TimerEvent: {}
+[10.927593] (-) TimerEvent: {}
+[11.028367] (-) TimerEvent: {}
+[11.129087] (-) TimerEvent: {}
+[11.229778] (-) TimerEvent: {}
+[11.330579] (-) TimerEvent: {}
+[11.431539] (-) TimerEvent: {}
+[11.532539] (-) TimerEvent: {}
+[11.633561] (-) TimerEvent: {}
+[11.734434] (-) TimerEvent: {}
+[11.835041] (-) TimerEvent: {}
+[11.935766] (-) TimerEvent: {}
+[12.036473] (-) TimerEvent: {}
+[12.137196] (-) TimerEvent: {}
+[12.237944] (-) TimerEvent: {}
+[12.339128] (-) TimerEvent: {}
+[12.439815] (-) TimerEvent: {}
+[12.540797] (-) TimerEvent: {}
+[12.642250] (-) TimerEvent: {}
+[12.743004] (-) TimerEvent: {}
+[12.844005] (-) TimerEvent: {}
+[12.944743] (-) TimerEvent: {}
+[13.045471] (-) TimerEvent: {}
+[13.146404] (-) TimerEvent: {}
+[13.247251] (-) TimerEvent: {}
+[13.348058] (-) TimerEvent: {}
+[13.448828] (-) TimerEvent: {}
+[13.550158] (-) TimerEvent: {}
+[13.651102] (-) TimerEvent: {}
+[13.751979] (-) TimerEvent: {}
+[13.852680] (-) TimerEvent: {}
+[13.953485] (-) TimerEvent: {}
+[14.054821] (-) TimerEvent: {}
+[14.155681] (-) TimerEvent: {}
+[14.257116] (-) TimerEvent: {}
+[14.358075] (-) TimerEvent: {}
+[14.458796] (-) TimerEvent: {}
+[14.559535] (-) TimerEvent: {}
+[14.660283] (-) TimerEvent: {}
+[14.761082] (-) TimerEvent: {}
+[14.861741] (-) TimerEvent: {}
+[14.963082] (-) TimerEvent: {}
+[15.063838] (-) TimerEvent: {}
+[15.164870] (-) TimerEvent: {}
+[15.265876] (-) TimerEvent: {}
+[15.366750] (-) TimerEvent: {}
+[15.467636] (-) TimerEvent: {}
+[15.568635] (-) TimerEvent: {}
+[15.669610] (-) TimerEvent: {}
+[15.770407] (-) TimerEvent: {}
+[15.871157] (-) TimerEvent: {}
+[15.971909] (-) TimerEvent: {}
+[16.073262] (-) TimerEvent: {}
+[16.174052] (-) TimerEvent: {}
+[16.274812] (-) TimerEvent: {}
+[16.375636] (-) TimerEvent: {}
+[16.476428] (-) TimerEvent: {}
+[16.577215] (-) TimerEvent: {}
+[16.677995] (-) TimerEvent: {}
+[16.778817] (-) TimerEvent: {}
+[16.879777] (-) TimerEvent: {}
+[16.980560] (-) TimerEvent: {}
+[17.081326] (-) TimerEvent: {}
+[17.182073] (-) TimerEvent: {}
+[17.282745] (-) TimerEvent: {}
+[17.383518] (-) TimerEvent: {}
+[17.484254] (-) TimerEvent: {}
+[17.585205] (-) TimerEvent: {}
+[17.686042] (-) TimerEvent: {}
+[17.786765] (-) TimerEvent: {}
+[17.887526] (-) TimerEvent: {}
+[17.988286] (-) TimerEvent: {}
+[18.089120] (-) TimerEvent: {}
+[18.193184] (-) TimerEvent: {}
+[18.294034] (-) TimerEvent: {}
+[18.396338] (-) TimerEvent: {}
+[18.497103] (-) TimerEvent: {}
+[18.598152] (-) TimerEvent: {}
+[18.698907] (-) TimerEvent: {}
+[18.799820] (-) TimerEvent: {}
+[18.900593] (-) TimerEvent: {}
+[19.001834] (-) TimerEvent: {}
+[19.102482] (-) TimerEvent: {}
+[19.203288] (-) TimerEvent: {}
+[19.304091] (-) TimerEvent: {}
+[19.405607] (-) TimerEvent: {}
+[19.506538] (-) TimerEvent: {}
+[19.607435] (-) TimerEvent: {}
+[19.708235] (-) TimerEvent: {}
+[19.809178] (-) TimerEvent: {}
+[19.910135] (-) TimerEvent: {}
+[20.011329] (-) TimerEvent: {}
+[20.112818] (-) TimerEvent: {}
+[20.214114] (-) TimerEvent: {}
+[20.315219] (-) TimerEvent: {}
+[20.415970] (-) TimerEvent: {}
+[20.516900] (-) TimerEvent: {}
+[20.617752] (-) TimerEvent: {}
+[20.718606] (-) TimerEvent: {}
+[20.819354] (-) TimerEvent: {}
+[20.920120] (-) TimerEvent: {}
+[21.020901] (-) TimerEvent: {}
+[21.121846] (-) TimerEvent: {}
+[21.222590] (-) TimerEvent: {}
+[21.323284] (-) TimerEvent: {}
+[21.424012] (-) TimerEvent: {}
+[21.524787] (-) TimerEvent: {}
+[21.625559] (-) TimerEvent: {}
+[21.726426] (-) TimerEvent: {}
+[21.827320] (-) TimerEvent: {}
+[21.928087] (-) TimerEvent: {}
+[22.028855] (-) TimerEvent: {}
+[22.129667] (-) TimerEvent: {}
+[22.230719] (-) TimerEvent: {}
+[22.332208] (-) TimerEvent: {}
+[22.434509] (-) TimerEvent: {}
+[22.535588] (-) TimerEvent: {}
+[22.636587] (-) TimerEvent: {}
+[22.737394] (-) TimerEvent: {}
+[22.838737] (-) TimerEvent: {}
+[22.939679] (-) TimerEvent: {}
+[23.042318] (-) TimerEvent: {}
+[23.143136] (-) TimerEvent: {}
+[23.244125] (-) TimerEvent: {}
+[23.346206] (-) TimerEvent: {}
+[23.446909] (-) TimerEvent: {}
+[23.547692] (-) TimerEvent: {}
+[23.648753] (-) TimerEvent: {}
+[23.749582] (-) TimerEvent: {}
+[23.850622] (-) TimerEvent: {}
+[23.952808] (-) TimerEvent: {}
+[24.054675] (-) TimerEvent: {}
+[24.155520] (-) TimerEvent: {}
+[24.256476] (-) TimerEvent: {}
+[24.357354] (-) TimerEvent: {}
+[24.458094] (-) TimerEvent: {}
+[24.558680] (-) TimerEvent: {}
+[24.659593] (-) TimerEvent: {}
+[24.760365] (-) TimerEvent: {}
+[24.861125] (-) TimerEvent: {}
+[24.962181] (-) TimerEvent: {}
+[25.062890] (-) TimerEvent: {}
+[25.163758] (-) TimerEvent: {}
+[25.264816] (-) TimerEvent: {}
+[25.366015] (-) TimerEvent: {}
+[25.466961] (-) TimerEvent: {}
+[25.567797] (-) TimerEvent: {}
+[25.669000] (-) TimerEvent: {}
+[25.769805] (-) TimerEvent: {}
+[25.870681] (-) TimerEvent: {}
+[25.971822] (-) TimerEvent: {}
+[26.072734] (-) TimerEvent: {}
+[26.173441] (-) TimerEvent: {}
+[26.274402] (-) TimerEvent: {}
+[26.375242] (-) TimerEvent: {}
+[26.476251] (-) TimerEvent: {}
+[26.577223] (-) TimerEvent: {}
+[26.677913] (-) TimerEvent: {}
+[26.778777] (-) TimerEvent: {}
+[26.879761] (-) TimerEvent: {}
+[26.980440] (-) TimerEvent: {}
+[27.081352] (-) TimerEvent: {}
+[27.184650] (-) TimerEvent: {}
+[27.287335] (-) TimerEvent: {}
+[27.389383] (-) TimerEvent: {}
+[27.490657] (-) TimerEvent: {}
+[27.595414] (-) TimerEvent: {}
+[27.697401] (-) TimerEvent: {}
+[27.803133] (-) TimerEvent: {}
+[27.905525] (-) TimerEvent: {}
+[28.006269] (-) TimerEvent: {}
+[28.107684] (-) TimerEvent: {}
+[28.208620] (-) TimerEvent: {}
+[28.310843] (-) TimerEvent: {}
+[28.411570] (-) TimerEvent: {}
+[28.512393] (-) TimerEvent: {}
+[28.613415] (-) TimerEvent: {}
+[28.714294] (-) TimerEvent: {}
+[28.816006] (-) TimerEvent: {}
+[28.916722] (-) TimerEvent: {}
+[29.017483] (-) TimerEvent: {}
+[29.118095] (-) TimerEvent: {}
+[29.218651] (-) TimerEvent: {}
+[29.319337] (-) TimerEvent: {}
+[29.419989] (-) TimerEvent: {}
+[29.520701] (-) TimerEvent: {}
+[29.621416] (-) TimerEvent: {}
+[29.722113] (-) TimerEvent: {}
+[29.822868] (-) TimerEvent: {}
+[29.924107] (-) TimerEvent: {}
+[30.024988] (-) TimerEvent: {}
+[30.126037] (-) TimerEvent: {}
+[30.226811] (-) TimerEvent: {}
+[30.327540] (-) TimerEvent: {}
+[30.428384] (-) TimerEvent: {}
+[30.529193] (-) TimerEvent: {}
+[30.630065] (-) TimerEvent: {}
+[30.730778] (-) TimerEvent: {}
+[30.831550] (-) TimerEvent: {}
+[30.932439] (-) TimerEvent: {}
+[31.033901] (-) TimerEvent: {}
+[31.134618] (-) TimerEvent: {}
+[31.236399] (-) TimerEvent: {}
+[31.340543] (-) TimerEvent: {}
+[31.441401] (-) TimerEvent: {}
+[31.543095] (-) TimerEvent: {}
+[31.644019] (-) TimerEvent: {}
+[31.744855] (-) TimerEvent: {}
+[31.846249] (-) TimerEvent: {}
+[31.947109] (-) TimerEvent: {}
+[32.047849] (-) TimerEvent: {}
+[32.149170] (-) TimerEvent: {}
+[32.249865] (-) TimerEvent: {}
+[32.351029] (-) TimerEvent: {}
+[32.451830] (-) TimerEvent: {}
+[32.552666] (-) TimerEvent: {}
+[32.653718] (-) TimerEvent: {}
+[32.754521] (-) TimerEvent: {}
+[32.855293] (-) TimerEvent: {}
+[32.955992] (-) TimerEvent: {}
+[33.056756] (-) TimerEvent: {}
+[33.157570] (-) TimerEvent: {}
+[33.258645] (-) TimerEvent: {}
+[33.359970] (-) TimerEvent: {}
+[33.460698] (-) TimerEvent: {}
+[33.561374] (-) TimerEvent: {}
+[33.662219] (-) TimerEvent: {}
+[33.763018] (-) TimerEvent: {}
+[33.864447] (-) TimerEvent: {}
+[33.965125] (-) TimerEvent: {}
+[34.066219] (-) TimerEvent: {}
+[34.167020] (-) TimerEvent: {}
+[34.267752] (-) TimerEvent: {}
+[34.368442] (-) TimerEvent: {}
+[34.469236] (-) TimerEvent: {}
+[34.570082] (-) TimerEvent: {}
+[34.671006] (-) TimerEvent: {}
+[34.771699] (-) TimerEvent: {}
+[34.872600] (-) TimerEvent: {}
+[34.975068] (-) TimerEvent: {}
+[35.076537] (-) TimerEvent: {}
+[35.177983] (-) TimerEvent: {}
+[35.278808] (-) TimerEvent: {}
+[35.381001] (-) TimerEvent: {}
+[35.481761] (-) TimerEvent: {}
+[35.582626] (-) TimerEvent: {}
+[35.683708] (-) TimerEvent: {}
+[35.784428] (-) TimerEvent: {}
+[35.885101] (-) TimerEvent: {}
+[35.985650] (-) TimerEvent: {}
+[36.086611] (-) TimerEvent: {}
+[36.187444] (-) TimerEvent: {}
+[36.288176] (-) TimerEvent: {}
+[36.388994] (-) TimerEvent: {}
+[36.489889] (-) TimerEvent: {}
+[36.590784] (-) TimerEvent: {}
+[36.691588] (-) TimerEvent: {}
+[36.792394] (-) TimerEvent: {}
+[36.893227] (-) TimerEvent: {}
+[36.993890] (-) TimerEvent: {}
+[37.094661] (-) TimerEvent: {}
+[37.195916] (-) TimerEvent: {}
+[37.296647] (-) TimerEvent: {}
+[37.397453] (-) TimerEvent: {}
+[37.498120] (-) TimerEvent: {}
+[37.598896] (-) TimerEvent: {}
+[37.699962] (-) TimerEvent: {}
+[37.800706] (-) TimerEvent: {}
+[37.901466] (-) TimerEvent: {}
+[38.002087] (-) TimerEvent: {}
+[38.102743] (-) TimerEvent: {}
+[38.204058] (-) TimerEvent: {}
+[38.304915] (-) TimerEvent: {}
+[38.405903] (-) TimerEvent: {}
+[38.506739] (-) TimerEvent: {}
+[38.607571] (-) TimerEvent: {}
+[38.708556] (-) TimerEvent: {}
+[38.809242] (-) TimerEvent: {}
+[38.909837] (-) TimerEvent: {}
+[39.010660] (-) TimerEvent: {}
+[39.111343] (-) TimerEvent: {}
+[39.212026] (-) TimerEvent: {}
+[39.312710] (-) TimerEvent: {}
+[39.413962] (-) TimerEvent: {}
+[39.514581] (-) TimerEvent: {}
+[39.615376] (-) TimerEvent: {}
+[39.716164] (-) TimerEvent: {}
+[39.816735] (-) TimerEvent: {}
+[39.917447] (-) TimerEvent: {}
+[40.018490] (-) TimerEvent: {}
+[40.119636] (-) TimerEvent: {}
+[40.220411] (-) TimerEvent: {}
+[40.321252] (-) TimerEvent: {}
+[40.422179] (-) TimerEvent: {}
+[40.523076] (-) TimerEvent: {}
+[40.623824] (-) TimerEvent: {}
+[40.724764] (-) TimerEvent: {}
+[40.825431] (-) TimerEvent: {}
+[40.926075] (-) TimerEvent: {}
+[41.026748] (-) TimerEvent: {}
+[41.127656] (-) TimerEvent: {}
+[41.228386] (-) TimerEvent: {}
+[41.329663] (-) TimerEvent: {}
+[41.430504] (-) TimerEvent: {}
+[41.531213] (-) TimerEvent: {}
+[41.631897] (-) TimerEvent: {}
+[41.732628] (-) TimerEvent: {}
+[41.834249] (-) TimerEvent: {}
+[41.935186] (-) TimerEvent: {}
+[42.035981] (-) TimerEvent: {}
+[42.136791] (-) TimerEvent: {}
+[42.237570] (-) TimerEvent: {}
+[42.338493] (-) TimerEvent: {}
+[42.440693] (-) TimerEvent: {}
+[42.541881] (-) TimerEvent: {}
+[42.644071] (-) TimerEvent: {}
+[42.744754] (-) TimerEvent: {}
+[42.845535] (-) TimerEvent: {}
+[42.946391] (-) TimerEvent: {}
+[43.047172] (-) TimerEvent: {}
+[43.147996] (-) TimerEvent: {}
+[43.248769] (-) TimerEvent: {}
+[43.349758] (-) TimerEvent: {}
+[43.450828] (-) TimerEvent: {}
+[43.521539] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[43.551018] (-) TimerEvent: {}
+[43.651662] (-) TimerEvent: {}
+[43.752803] (-) TimerEvent: {}
+[43.854092] (-) TimerEvent: {}
+[43.954827] (-) TimerEvent: {}
+[44.058290] (-) TimerEvent: {}
+[44.161301] (-) TimerEvent: {}
+[44.262150] (-) TimerEvent: {}
+[44.375068] (-) TimerEvent: {}
+[44.475922] (-) TimerEvent: {}
+[44.576780] (-) TimerEvent: {}
+[44.677637] (-) TimerEvent: {}
+[44.778620] (-) TimerEvent: {}
+[44.879635] (-) TimerEvent: {}
+[44.980648] (-) TimerEvent: {}
+[45.081962] (-) TimerEvent: {}
+[45.184117] (-) TimerEvent: {}
+[45.284802] (-) TimerEvent: {}
+[45.385398] (-) TimerEvent: {}
+[45.486652] (-) TimerEvent: {}
+[45.587531] (-) TimerEvent: {}
+[45.688346] (-) TimerEvent: {}
+[45.789377] (-) TimerEvent: {}
+[45.890991] (-) TimerEvent: {}
+[45.992062] (-) TimerEvent: {}
+[46.092989] (-) TimerEvent: {}
+[46.193665] (-) TimerEvent: {}
+[46.294642] (-) TimerEvent: {}
+[46.395508] (-) TimerEvent: {}
+[46.496311] (-) TimerEvent: {}
+[46.568400] (vision) StdoutLine: {'line': b'[100%] Built target vision_node\n'}
+[46.596518] (-) TimerEvent: {}
+[46.618239] (vision) CommandEnded: {'returncode': 0}
+[46.621220] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[46.622277] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision'], 'cwd': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri/iris_fp1_ws/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/3641,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/3641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/58cc8c7c_bb7e_4b84_9b52_6e0f0eba4209', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[46.651127] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.652596] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/vision/vision_node\n'}
+[46.667657] (vision) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/lib/vision/vision_node" to ""\n'}
+[46.670671] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[46.672818] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[46.673832] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[46.674410] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[46.674810] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/path.sh\n'}
+[46.675306] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/environment/path.dsv\n'}
+[46.676077] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.bash\n'}
+[46.676615] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.sh\n'}
+[46.676977] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.zsh\n'}
+[46.677383] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/local_setup.dsv\n'}
+[46.677729] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.dsv\n'}
+[46.678104] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[46.678450] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[46.678770] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[46.679110] (vision) StdoutLine: {'line': b'-- Installing: /home/putri/iris_fp1_ws/src/iris_fp1_ws_act/install/vision/share/vision/package.xml\n'}
+[46.683002] (vision) CommandEnded: {'returncode': 0}
+[46.697298] (-) TimerEvent: {}
+[46.738019] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[46.743720] (-) EventReactorShutdown: {}

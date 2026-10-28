@@ -1,0 +1,10 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   48 |     int bev_width_ = [01;31m[Kframe[m[K.cols;
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:49:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   49 |     int bev_height_ = [01;31m[Kframe[m[K.rows;
+      |                       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.000991] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.001229] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.001329] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.001385] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001446] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.002029] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.002607] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.002815] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.002893] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.002976] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.003020] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.003062] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.003110] (-) JobUnselected: {'identifier': 'communication'}
+[0.003814] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.004473] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.004580] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.004628] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.004671] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.004720] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.004820] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.004872] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.004918] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.004963] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.005010] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.005051] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.005096] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.005141] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.005188] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.005237] (-) JobUnselected: {'identifier': 'lusb'}
+[0.005298] (-) JobUnselected: {'identifier': 'master'}
+[0.005349] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.008878] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.009012] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.009059] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.009097] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.009134] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.009189] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.009258] (vision) JobStarted: {'identifier': 'vision'}
+[0.024783] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.025785] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.026833] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/putri/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/putri/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'putri', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/putri', 'OLDPWD': '/home/putri', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2945', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'putri', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'putri', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jeee-IdeaPad-Flex-5-14IRU8:@/tmp/.ICE-unix/2787,unix/jeee-IdeaPad-Flex-5-14IRU8:/tmp/.ICE-unix/2787', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f33b8860_3714_4424_a500_bf009c2b4709', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/putri/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098696] (-) TimerEvent: {}
+[0.199381] (-) TimerEvent: {}
+[0.215646] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o\x1b[0m\n'}
+[0.299620] (-) TimerEvent: {}
+[0.400220] (-) TimerEvent: {}
+[0.501177] (-) TimerEvent: {}
+[0.601807] (-) TimerEvent: {}
+[0.702763] (-) TimerEvent: {}
+[0.803619] (-) TimerEvent: {}
+[0.905309] (-) TimerEvent: {}
+[1.007397] (-) TimerEvent: {}
+[1.107933] (-) TimerEvent: {}
+[1.208454] (-) TimerEvent: {}
+[1.309311] (-) TimerEvent: {}
+[1.409953] (-) TimerEvent: {}
+[1.510452] (-) TimerEvent: {}
+[1.611045] (-) TimerEvent: {}
+[1.711642] (-) TimerEvent: {}
+[1.812161] (-) TimerEvent: {}
+[1.912783] (-) TimerEvent: {}
+[2.014492] (-) TimerEvent: {}
+[2.116080] (-) TimerEvent: {}
+[2.216865] (-) TimerEvent: {}
+[2.317421] (-) TimerEvent: {}
+[2.418221] (-) TimerEvent: {}
+[2.520588] (-) TimerEvent: {}
+[2.621688] (-) TimerEvent: {}
+[2.722855] (-) TimerEvent: {}
+[2.823499] (-) TimerEvent: {}
+[2.925528] (-) TimerEvent: {}
+[3.026114] (-) TimerEvent: {}
+[3.127558] (-) TimerEvent: {}
+[3.228368] (-) TimerEvent: {}
+[3.329671] (-) TimerEvent: {}
+[3.430557] (-) TimerEvent: {}
+[3.531133] (-) TimerEvent: {}
+[3.633137] (-) TimerEvent: {}
+[3.735206] (-) TimerEvent: {}
+[3.836303] (-) TimerEvent: {}
+[3.937312] (-) TimerEvent: {}
+[4.038067] (-) TimerEvent: {}
+[4.159715] (-) TimerEvent: {}
+[4.261055] (-) TimerEvent: {}
+[4.362183] (-) TimerEvent: {}
+[4.462949] (-) TimerEvent: {}
+[4.563680] (-) TimerEvent: {}
+[4.664603] (-) TimerEvent: {}
+[4.765653] (-) TimerEvent: {}
+[4.866924] (-) TimerEvent: {}
+[4.967671] (-) TimerEvent: {}
+[5.068318] (-) TimerEvent: {}
+[5.169409] (-) TimerEvent: {}
+[5.270673] (-) TimerEvent: {}
+[5.371422] (-) TimerEvent: {}
+[5.471993] (-) TimerEvent: {}
+[5.572975] (-) TimerEvent: {}
+[5.673603] (-) TimerEvent: {}
+[5.774042] (-) TimerEvent: {}
+[5.876047] (-) TimerEvent: {}
+[5.976761] (-) TimerEvent: {}
+[6.077628] (-) TimerEvent: {}
+[6.178376] (-) TimerEvent: {}
+[6.278879] (-) TimerEvent: {}
+[6.380016] (-) TimerEvent: {}
+[6.481632] (-) TimerEvent: {}
+[6.582245] (-) TimerEvent: {}
+[6.682785] (-) TimerEvent: {}
+[6.784108] (-) TimerEvent: {}
+[6.884859] (-) TimerEvent: {}
+[6.985525] (-) TimerEvent: {}
+[7.086437] (-) TimerEvent: {}
+[7.187066] (-) TimerEvent: {}
+[7.287471] (-) TimerEvent: {}
+[7.388616] (-) TimerEvent: {}
+[7.490770] (-) TimerEvent: {}
+[7.591442] (-) TimerEvent: {}
+[7.692171] (-) TimerEvent: {}
+[7.792761] (-) TimerEvent: {}
+[7.894768] (-) TimerEvent: {}
+[7.996348] (-) TimerEvent: {}
+[8.096869] (-) TimerEvent: {}
+[8.197938] (-) TimerEvent: {}
+[8.299203] (-) TimerEvent: {}
+[8.399818] (-) TimerEvent: {}
+[8.500481] (-) TimerEvent: {}
+[8.601666] (-) TimerEvent: {}
+[8.702586] (-) TimerEvent: {}
+[8.803586] (-) TimerEvent: {}
+[8.904531] (-) TimerEvent: {}
+[9.007080] (-) TimerEvent: {}
+[9.112115] (-) TimerEvent: {}
+[9.212708] (-) TimerEvent: {}
+[9.313917] (-) TimerEvent: {}
+[9.414597] (-) TimerEvent: {}
+[9.515509] (-) TimerEvent: {}
+[9.616526] (-) TimerEvent: {}
+[9.717869] (-) TimerEvent: {}
+[9.818475] (-) TimerEvent: {}
+[9.919180] (-) TimerEvent: {}
+[10.019989] (-) TimerEvent: {}
+[10.120587] (-) TimerEvent: {}
+[10.221072] (-) TimerEvent: {}
+[10.321568] (-) TimerEvent: {}
+[10.422065] (-) TimerEvent: {}
+[10.522710] (-) TimerEvent: {}
+[10.623643] (-) TimerEvent: {}
+[10.724403] (-) TimerEvent: {}
+[10.825038] (-) TimerEvent: {}
+[10.925680] (-) TimerEvent: {}
+[11.026257] (-) TimerEvent: {}
+[11.126893] (-) TimerEvent: {}
+[11.227885] (-) TimerEvent: {}
+[11.328405] (-) TimerEvent: {}
+[11.429073] (-) TimerEvent: {}
+[11.431787] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:48:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.433002] (vision) StderrLine: {'line': b'   48 |     int bev_width_ = \x1b[01;31m\x1b[Kframe\x1b[m\x1b[K.cols;\n'}
+[11.433311] (vision) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.466150] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:49:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.466959] (vision) StderrLine: {'line': b'   49 |     int bev_height_ = \x1b[01;31m\x1b[Kframe\x1b[m\x1b[K.rows;\n'}
+[11.467303] (vision) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.529271] (-) TimerEvent: {}
+[11.539686] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VisionNode::\x1b[01;32m\x1b[KimageCallback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.541093] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:74:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""f\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.542842] (vision) StderrLine: {'line': b'   74 |                 cv::Point2f(0, \x1b[01;31m\x1b[K0f\x1b[m\x1b[K),\n'}
+[11.543287] (vision) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.543624] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:79:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{<expression error>, cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), 0.0f), cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1)), cv::Point_<float>(0.0f, (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1))}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<cv::Point_<float> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.544019] (vision) StderrLine: {'line': b'   79 |             \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[11.544353] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.544555] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[11.544680] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[11.550480] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:85:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvColor\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KcvtColor\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.551103] (vision) StderrLine: {'line': b'   85 |             cv::\x1b[01;31m\x1b[KcvColor\x1b[m\x1b[K(bev , bev_hsv , cv::COLOR_BGR2HSV);\n'}
+[11.551394] (vision) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.552136] (vision) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KcvtColor\x1b[m\x1b[K\n'}
+[11.629453] (-) TimerEvent: {}
+[11.730783] (-) TimerEvent: {}
+[11.831956] (-) TimerEvent: {}
+[11.933450] (-) TimerEvent: {}
+[12.034130] (-) TimerEvent: {}
+[12.134707] (-) TimerEvent: {}
+[12.235438] (-) TimerEvent: {}
+[12.336763] (-) TimerEvent: {}
+[12.437839] (-) TimerEvent: {}
+[12.538466] (-) TimerEvent: {}
+[12.639188] (-) TimerEvent: {}
+[12.740595] (-) TimerEvent: {}
+[12.841334] (-) TimerEvent: {}
+[12.942114] (-) TimerEvent: {}
+[13.043082] (-) TimerEvent: {}
+[13.145391] (-) TimerEvent: {}
+[13.246981] (-) TimerEvent: {}
+[13.349331] (-) TimerEvent: {}
+[13.450261] (-) TimerEvent: {}
+[13.551623] (-) TimerEvent: {}
+[13.652702] (-) TimerEvent: {}
+[13.753296] (-) TimerEvent: {}
+[13.854006] (-) TimerEvent: {}
+[13.954616] (-) TimerEvent: {}
+[14.055624] (-) TimerEvent: {}
+[14.156374] (-) TimerEvent: {}
+[14.257047] (-) TimerEvent: {}
+[14.357589] (-) TimerEvent: {}
+[14.458595] (-) TimerEvent: {}
+[14.559475] (-) TimerEvent: {}
+[14.660239] (-) TimerEvent: {}
+[14.761621] (-) TimerEvent: {}
+[14.863534] (-) TimerEvent: {}
+[14.964226] (-) TimerEvent: {}
+[15.065036] (-) TimerEvent: {}
+[15.165678] (-) TimerEvent: {}
+[15.266954] (-) TimerEvent: {}
+[15.367678] (-) TimerEvent: {}
+[15.468565] (-) TimerEvent: {}
+[15.569562] (-) TimerEvent: {}
+[15.672706] (-) TimerEvent: {}
+[15.773407] (-) TimerEvent: {}
+[15.874629] (-) TimerEvent: {}
+[15.975988] (-) TimerEvent: {}
+[16.076505] (-) TimerEvent: {}
+[16.177903] (-) TimerEvent: {}
+[16.278709] (-) TimerEvent: {}
+[16.379345] (-) TimerEvent: {}
+[16.480682] (-) TimerEvent: {}
+[16.581793] (-) TimerEvent: {}
+[16.683204] (-) TimerEvent: {}
+[16.783906] (-) TimerEvent: {}
+[16.885142] (-) TimerEvent: {}
+[16.986399] (-) TimerEvent: {}
+[17.087350] (-) TimerEvent: {}
+[17.188176] (-) TimerEvent: {}
+[17.288771] (-) TimerEvent: {}
+[17.391098] (-) TimerEvent: {}
+[17.491809] (-) TimerEvent: {}
+[17.592615] (-) TimerEvent: {}
+[17.693392] (-) TimerEvent: {}
+[17.794633] (-) TimerEvent: {}
+[17.895616] (-) TimerEvent: {}
+[17.996631] (-) TimerEvent: {}
+[18.097591] (-) TimerEvent: {}
+[18.198621] (-) TimerEvent: {}
+[18.299146] (-) TimerEvent: {}
+[18.400454] (-) TimerEvent: {}
+[18.501238] (-) TimerEvent: {}
+[18.601806] (-) TimerEvent: {}
+[18.702596] (-) TimerEvent: {}
+[18.803419] (-) TimerEvent: {}
+[18.904299] (-) TimerEvent: {}
+[19.004827] (-) TimerEvent: {}
+[19.105810] (-) TimerEvent: {}
+[19.210079] (-) TimerEvent: {}
+[19.311035] (-) TimerEvent: {}
+[19.413620] (-) TimerEvent: {}
+[19.515368] (-) TimerEvent: {}
+[19.616048] (-) TimerEvent: {}
+[19.716823] (-) TimerEvent: {}
+[19.818288] (-) TimerEvent: {}
+[19.918836] (-) TimerEvent: {}
+[20.019544] (-) TimerEvent: {}
+[20.120285] (-) TimerEvent: {}
+[20.221099] (-) TimerEvent: {}
+[20.321841] (-) TimerEvent: {}
+[20.422668] (-) TimerEvent: {}
+[20.523193] (-) TimerEvent: {}
+[20.623776] (-) TimerEvent: {}
+[20.724561] (-) TimerEvent: {}
+[20.826197] (-) TimerEvent: {}
+[20.926674] (-) TimerEvent: {}
+[21.027673] (-) TimerEvent: {}
+[21.128766] (-) TimerEvent: {}
+[21.230029] (-) TimerEvent: {}
+[21.331303] (-) TimerEvent: {}
+[21.432987] (-) TimerEvent: {}
+[21.533869] (-) TimerEvent: {}
+[21.634542] (-) TimerEvent: {}
+[21.698194] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1\n'}
+[21.700345] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2\n'}
+[21.701677] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.709580] (vision) CommandEnded: {'returncode': 2}
+[21.734790] (-) TimerEvent: {}
+[21.766217] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[21.778955] (-) EventReactorShutdown: {}

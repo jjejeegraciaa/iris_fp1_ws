@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision.cpp.o[0m
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   48 |     int bev_width_ = [01;31m[Kframe[m[K.cols;
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:49:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   49 |     int bev_height_ = [01;31m[Kframe[m[K.rows;
+      |                       [01;31m[K^~~~~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:[m[K In member function ‘[01m[Kvoid VisionNode::[01;32m[KimageCallback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:74:32:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+   74 |                 cv::Point2f(0, [01;31m[K0f[m[K),
+      |                                [01;31m[K^~[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:79:13:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>, cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), 0.0f), cv::Point_<float>((float)(((VisionNode*)this)->VisionNode::bev_width_ - 1), (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1)), cv::Point_<float>(0.0f, (float)(((VisionNode*)this)->VisionNode::bev_height_ - 1))}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<cv::Point_<float> >[m[K’
+   79 |             [01;31m[K}[m[K;
+      |             [01;31m[K^[m[K
+      |             [01;31m[K|[m[K
+      |             [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/putri/iris_fp1_ws/src/iris_fp1_ws_act/src/vision/src/vision.cpp:85:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcvColor[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvtColor[m[K’?
+   85 |             cv::[01;31m[KcvColor[m[K(bev , bev_hsv , cv::COLOR_BGR2HSV);
+      |                 [01;31m[K^~~~~~~[m[K
+      |                 [32m[KcvtColor[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
