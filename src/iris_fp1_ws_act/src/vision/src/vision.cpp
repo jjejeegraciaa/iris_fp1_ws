@@ -2,6 +2,8 @@
 #include "sensor_msgs/msg/image.hpp"
 #include "cv_bridge/cv_bridge.hpp"
 #include "opencv2/opencv.hpp"
+#include "std_msgs/msg/int32_multi_array.hpp"
+#include <algorithm>
 
 using namespace cv;
 
@@ -22,6 +24,8 @@ public:
 
         // Perbaikan: "create_subcription" diubah menjadi "create_subscription" 
         // dan variabel pointer subscription disamakan dengan deklarasi di bawah (`image_sub_`)
+        center_pub_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("vision_centers", 10);
+
         image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
             "/catvehicle/camera_front/image_raw_front",
             10,
@@ -32,7 +36,7 @@ public:
             )
         );
 
-        RCLCPP_INFO(get_logger(), "Node BEV berjalan");
+        RCLCPP_INFO(get_logger(), "Node BEV & Vision Publisher berjalan");
     }    
 
 private:
@@ -64,17 +68,17 @@ private:
             int bev_width_ = frame.cols; 
             int bev_height_ = frame.rows;
 
-            std::vector<cv::Point2f> src_pts = {
-                cv::Point2f(360, 452),
-                cv::Point2f(633, 455),
-                cv::Point2f(785, 621),
-                cv::Point2f(2, 541)
+             std::vector<cv::Point2f> src_pts = {
+                cv::Point2f(353, 457),
+                cv::Point2f(655, 457),
+                cv::Point2f(793, 582),
+                cv::Point2f(1, 559)
             };
 
             std::vector<cv::Point2f> dst_pst = {
-                cv::Point2f(0.0f),
-                cv::Point2f(static_cast<float>(bev_width_ - 1), 0.0f),           // Kanan-Atas
-                cv::Point2f(static_cast<float>(bev_width_ - 1), static_cast<float>(bev_height_ - 1)), // Kanan-Bawah
+                cv::Point2f(0.0f , 0.0f),
+                cv::Point2f(static_cast<float>(bev_width_ - 1), 0.0f),           
+                cv::Point2f(static_cast<float>(bev_width_ - 1), static_cast<float>(bev_height_ - 1)), 
                 cv::Point2f(0.0f, static_cast<float>(bev_height_ - 1))
 
             };
@@ -84,8 +88,7 @@ private:
             
             cv::Mat bev_hsv, bev_threshold;
             cv::cvtColor(bev , bev_hsv , cv::COLOR_BGR2HSV);
-
-            // Menggunakan nilai dari trackbar kelas untuk inRange
+            
             cv::inRange(
                 bev_hsv, 
                 cv::Scalar(h_min_, s_min_, v_min_), 
@@ -93,25 +96,52 @@ private:
                 bev_threshold
             );
 
-            // cv::Mat contours;
+            cv::Mat k_erode = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(13,1));
+            cv::erode(bev_threshold, bev_threshold, k_erode);
 
-            // std:vector<std::vector<cvPoint>> contours;
-            // cv::findContours(bev_threshold, contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
+            cv::Mat k_dilate = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(13,1));
+            cv::dilate(bev_threshold, bev_threshold, k_dilate);
+            
+            cv::Mat k_close = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(5, 9));
+            cv::morphologyEx(bev_threshold, bev_threshold, cv::MORPH_CLOSE, k_close);
 
-            // cv::Mat result = frame.clone();
+            std::vector<std::vector<cv::Point>> contours;
+            cv::findContours(bev_threshold, contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
-            // for (size_t i = 0 ; i < contours.size() ; i++){
-            //     if (cv::contourArea(contours[i]) > 1000) {
-            //         cv::Rect boundingBox = cv::boundingRect(contours[i])
-            //         cv::rectangle(result, boundingBox, cv::Scalar(0, 255, 0), 2);
-            //     }
-            // }
+            cv::Mat result = bev.clone();
+            std::vector<cv::Point> centers;
 
-            // Tampilkan gambar asli dan hasil threshold
+            for (size_t i = 0 ; i < contours.size() ; i++){
+                if (cv::contourArea(contours[i]) > 1000) {
+                    cv::Rect boundingBox = cv::boundingRect(contours[i]);
+
+                    if (boundingBox.height > bev_height_ * 0.25) continue;
+                    cv::rectangle(result, boundingBox, cv::Scalar(0, 255, 0), 2);
+
+                    cv::Point pusat(boundingBox.x + boundingBox.width / 2,
+                                    boundingBox.y + boundingBox.height /2);
+                    cv::circle(result, pusat, 5, cv::Scalar(0, 0, 255), -1);
+                    
+                    centers.push_back(pusat);
+
+                }
+            }
+
+            std::sort(centers.begin(), centers.end(),
+                    []const cv::Point &a, const cv::Point &b) {return a.y > b.y; }
+
+            std_msgs::msg::Int32MultiArray center_msg;
+
+            for (const auto& pt : centers){
+                center_msg.data.push_back(pt.x);
+                center_msg.data.push_back(pt.y);
+            }
+            center_pub_->publish(center_msg);
+
             cv::imshow("RAW", frame);
             cv::imshow("BEV", bev);
             cv::imshow("Threshold", bev_threshold);
-            //cv::imshow("Countours", result);
+            cv::imshow("Countours", result);
 
             cv::waitKey(1);
 
@@ -123,6 +153,7 @@ private:
     }
 
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub_;
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr center_pub_;
 };
 
 int main(int argc, char** argv) {
